@@ -25,7 +25,7 @@ Saya menggunakan fungsi **HLOOKUP** untuk mengambil harga barang dari **Tabel Ba
 **2️⃣ Menghitung Total Belanja**  
 Setelah harga barang terisi, saya menghitung total belanja dengan cara **mengalikan jumlah barang yang dibeli dengan harga satuannya**. Rumusnya cukup sederhana, yaitu:  
 
-                                                  Total Belanja = Harga × Jumlah
+                                            Total Belanja = Harga × Jumlah
 
 Dengan cara ini, setiap transaksi langsung memiliki total harga tanpa perlu memasukkan secara manual.  
 
@@ -35,7 +35,7 @@ Karena setiap barang bisa mendapatkan diskon, saya menghitung potongan harga ber
 **4️⃣ Menghitung Total Bayar**  
 Terakhir, untuk mendapatkan jumlah yang harus dibayar oleh pelanggan, saya mengurangi **Total Belanja dengan Potongan Harga**. Jadi rumusnya:  
 
-                                            Total Bayar = Total Belanja − Potongan Harga
+                                       Total Bayar = Total Belanja − Potongan Harga
 
 Dengan cara ini, setiap pelanggan langsung mendapatkan jumlah yang harus dibayarkan setelah diskon diterapkan.  
 
