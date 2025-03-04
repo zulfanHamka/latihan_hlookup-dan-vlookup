@@ -1,9 +1,13 @@
 ## **Praktikum Aplikasi Perkantoran: Pengolahan Data Transaksi dengan Microsoft Excel**
 
-Ini adalah salah satu tugas praktikum pada mata kuliah **Aplikasi Perkantoran**, khususnya pada penggunaan **Microsoft Excel**. Dalam tugas ini, terdapat dua tabel utama:  
+Ini adalah **1** dari **4 bagian** tugas praktikum pada mata kuliah **Aplikasi Perkantoran**, khususnya pada penggunaan **Microsoft Excel**. Dalam tugas ini, terdapat dua tabel utama:  
 
 1. **Tabel Transaksi Penjualan (Utama)** → Berisi detail transaksi, seperti **kode barang, nama barang, harga, jumlah, total belanja, diskon, potongan, dan total bayar**.  
 2. **Tabel Barang (Referensi)** → Berisi daftar barang dengan **kode barang, nama barang, dan harga** sebagai referensi data.  
+
+
+
+![image](https://github.com/user-attachments/assets/f54a01ac-1dcc-4d46-ac42-b963b0bbf0ad)
 
 ### **Instruksi yang harus dikerjakan:**  
 1️⃣ **Bagaimana cara mengambil data harga dari tabel referensi tanpa memasukkan nilainya secara manual?** Gunakan fungsi yang dapat mencari nilai berdasarkan kode barang secara otomatis.  
@@ -17,7 +21,10 @@ Ini adalah salah satu tugas praktikum pada mata kuliah **Aplikasi Perkantoran**,
 Tantangan ini menguji pemahaman tentang **fungsi lookup (HLOOKUP/VLOOKUP), operasi aritmatika, serta pemrosesan data transaksi secara otomatis di Excel**.
 
 ---
-### **Jawaban:**  
+### **Jawaban:**
+
+![image](https://github.com/user-attachments/assets/d65f4a3d-8954-44ff-a93e-fd5a2ca1623b)
+
 
 **1️⃣ Mengisi Kolom Harga**  
 Saya menggunakan fungsi **HLOOKUP** untuk mengambil harga barang dari **Tabel Barang** ke **Tabel Transaksi Penjualan**. Caranya, saya mencocokkan **Kode Barang** di kolom pertama tabel transaksi dengan **Kode Barang** di tabel referensi. Karena harga barang ada di baris kedua tabel referensi, saya menggunakan indeks baris **2** dalam rumus HLOOKUP. Dengan cara ini, setiap kode barang otomatis mendapatkan harga yang sesuai.  
